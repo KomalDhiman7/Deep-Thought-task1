@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.project-title {
+    font-size: 1.2em;
+}
+
+.submit-task {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.intro p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    min-width: 300px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.video-container {
+    margin-top: 10px;
+}
+
+.threadbuild input, .threadbuild textarea, .card input, .card textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.threadbuild .add-thread {
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.notice-board {
+    position: fixed;
+    right: 0;
+    top: 20%;
+    background-color: #ffcc00;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.notice-board p {
+    margin: 0;
+    font-weight: bold;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Project Management</title>
+    
+</head>
+
+<body>
+    
+    <header>
+        <div class="logo">DEEP THOUGHT</div>
+        <div class="project-title">Technical Project Management</div>
+        <button class="submit-task">Submit task</button>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Explore the world of management</h2>
+            <p>As a project manager, you play an important role in leading a project through initiation, planning, execution, monitoring, controlling and completion. How do you want to manage each and every step of your life?</p>
+        </section>
+        <section class="content">
+            <div class="card">
+                <h3>Technical Project Management</h3>
+                <p>Description: Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sample_video_id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Threadbuild</h3>
+                <p>Description: Watch the video and threadbuild, and jot out key threads while watching the video</p>
+                <div class="threadbuild">
+                    <input type="text" placeholder="Sub-thread 1">
+                    <input type="text" placeholder="Sub-interpretation 1">
+                    <button class="add-thread">Add thread</button>
+                    <textarea placeholder="Summary for Thread A"></textarea>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Structure your Pointers</h3>
+                <p>Description: Write a 300 - 400 word article from your thread. Publish your understanding and showcase your understanding to the entire world</p>
+                <input type="text" placeholder="Title">
+                <textarea placeholder="Content"></textarea>
+            </div>
+            <div class="card">
+                <h3>4SA Method</h3>
+                <p>Description: To Explore more read more</p>
+                <div class="method-content">
+                    <h4>Introduction</h4>
+                    <p>The 4SA Method, How to bring a idea into progress?</p>
+                    <h4>Thread A</h4>
+                    <p>How are you going to develop your strategy? Which method are you going to use to develop a strategy? What if the project is lengthy?</p>
+                    <h4>Example 1</h4>
+                    <p>You have a concept. How will you put into progress?</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <aside class="notice-board">
+        <p>Notice Board</p>
+    </aside>
+</body>
+</html>
